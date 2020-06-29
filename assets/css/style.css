@@ -9,7 +9,7 @@
 /*----------------------------------------------------Header */
 
 .name{
-    color: #fafafa;
+    color: #edebe6;
 font-family: "Montserrat", sans-serif;
 letter-spacing: 5px;
 text-transform: uppercase;
@@ -17,7 +17,7 @@ font-size: 250%
 }
 
 .title {
-    color: #fafafa;
+    color: #edebe6;
     font-family: "Montserrat", sans-serif;
 letter-spacing: 5px;
 text-transform: uppercase;
@@ -25,7 +25,7 @@ font-size: 250%
 }
 
 .amps{
-    color: #fafafa;
+    color: #edebe6;
     font-family: "Montserrat", sans-serif;
 letter-spacing: 5px;
 text-transform: uppercase;
@@ -39,7 +39,7 @@ font-size: 250%
 #menu{
     font-size: 100%;
     list-style-type: none;
-    letter-spacing: 3px;         
+    letter-spacing: 5px;         
 
 }
 
@@ -51,11 +51,36 @@ font-size: 250%
 
 body{
     font-family: "Roboto", sans-serif;
-    color: #5F5959;
-    background-color: #1D1D1F
+   color: #fafafa;
+    background-color:#1D1D1F;
 }
     
 #menu a {
     text-decoration: none;
-color: inherit;
+color:  #fafafa;
+}
+
+#header, #menu {
+line-height: 75px;
+}
+
+#menu a:hover{
+    border-bottom: 3px solid #755212;
+}
+
+.active {
+    border-bottom: 3px solid #755212;
+}
+
+/*----------------------------------------------------Images */
+
+#hero-image{
+    height: 1000px;
+    width: 55%;
+    background: url("../images/jordan.jpeg") no-repeat center center;
+    background-repeat: no-repeat;
+   
+    
+  
+ 
 }
