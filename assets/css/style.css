@@ -3,6 +3,53 @@
 
 
 /*---------------------------------------------------- Navigation */
-.navbar-brand {
-background-color: #3804c7;
+
+
+/*---------------------------------------------------- Slides */
+.carousel-item{
+
+    
+}
+
+.d-block w-100{
+    max-width: 100%;
+
+}.social-links {
+  padding-bottom: 15px;
+}
+/*----------------------------------------------------  Social Footer*/
+.social-links li a i {
+  width: 50px;
+  height: 50px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 32px;
+  line-height: 25px;
+  justify-content: center;
+  text-align: center;
+  color: #1d1d1f;
+  background-color: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: rgb(207,150,132);
+}
+
+
+
+
+/*----------------------------------------------------Media Queries*/
+
+@media (min-width:992px){
+    .center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+
+}
 }
