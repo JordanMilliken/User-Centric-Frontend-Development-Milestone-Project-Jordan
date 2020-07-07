@@ -13,33 +13,47 @@ body{
 .navbar{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: .7rem;
     letter-spacing: .1rem;
     background: rgba(0, 0, 0,.6) !important;
+
 }
-.navbar-brand img {
+.navbar-brand img{
     height: 5rem;
 }
    .navbar-nav li { padding-right: .5rem
 
    }
 
-   .navbar-dark .navbar-nav .navbar-link {
-       color: #ffffff !important;
+   .navbar-dark .navbar-nav .navbar-link{
+       color: rgb(128, 105, 150);
+       padding-top: .8rem;
+
+     
 
    }
+   .navbar-dark .navbar-nav .navbar-link.active{
+       color: rgb(207,150,132);
+   }
+
+   .navbar-dark .navbar-nav .navbar-link:hover{
+       color:rgb(103, 173, 3);
 
 }
-/*---------------------------------------------------- Slides */
+
+
+
+/*----------- Slides-----------*/
+
 .carousel-item{
-
-    
+    height: 100vh;
 }
+
 
 .d-block w-100{
     max-width: 100%;
 
-}.social-links {
+}.social-links{
   padding-bottom: 15px;
 }
 /*----------------------------------------------------  Social Footer*/
