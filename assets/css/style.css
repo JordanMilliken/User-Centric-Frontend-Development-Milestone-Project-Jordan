@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
-
+body{
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    color: #f00b0b;
+}
 
 /*---------------------------------------------------- Navigation */
 
 
+/*---------------------------------------------------- Navbar*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0,.6) !important;
+}
+.navbar-brand img {
+    height: 5rem;
+}
+   .navbar-nav li { padding-right: .5rem
+
+   }
+
+   .navbar-dark .navbar-nav .navbar-link {
+       color: #ffffff !important;
+
+   }
+
+}
 /*---------------------------------------------------- Slides */
 .carousel-item{
 
@@ -39,6 +64,7 @@
   background: rgb(207,150,132);
 }
 
+ }
 
 
 
