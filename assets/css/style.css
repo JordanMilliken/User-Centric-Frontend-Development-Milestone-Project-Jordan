@@ -3,7 +3,7 @@
 body{
     overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
-    color: #f00b0b;
+    color: #1d1d1f;
 }
 
 /*---------------------------------------------------- Navigation */
@@ -12,75 +12,36 @@ body{
 /*---------------------------------------------------- Navbar*/
 .navbar{
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: .7rem;
+    font-weight: 600;
+    font-size: 1rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0,.6) !important;
-
-}
+    background: rgba(0, 0, 0,.5) !important;
+    }
 .navbar-brand img{
-    height: 5rem;
-}
-   .navbar-nav li { padding-right: .5rem
-
-   }
-
-   .navbar-dark .navbar-nav .navbar-link{
-       color: rgb(128, 105, 150);
-       padding-top: .8rem;
-
-     
-
-   }
-   .navbar-dark .navbar-nav .navbar-link.active{
-       color: rgb(207,150,132);
-   }
-
-   .navbar-dark .navbar-nav .navbar-link:hover{
-       color:rgb(103, 173, 3);
+    height: 2.5rem;
 
 }
+   .navbar-nav li { padding-right: .1rem
 
+   }
 
+.navbar-text{
+color: #ffffff !important;
+}
 
+.nav-link:hover{
+    color: #d66800!important;
+}
+
+/*----------- Carousel-----------*/
+.carousel-inner{
+    max-height: 38rem !important;
+}
 /*----------- Slides-----------*/
-
-.carousel-item{
-    height: 100vh;
-}
 
 
 .d-block w-100{
     max-width: 100%;
-
-}.social-links{
-  padding-bottom: 15px;
-}
-/*----------------------------------------------------  Social Footer*/
-.social-links li a i {
-  width: 50px;
-  height: 50px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 32px;
-  line-height: 25px;
-  justify-content: center;
-  text-align: center;
-  color: #1d1d1f;
-  background-color: #8f8f8f;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-  background: rgb(207,150,132);
-}
-
- }
-
-
 
 /*----------------------------------------------------Media Queries*/
 
