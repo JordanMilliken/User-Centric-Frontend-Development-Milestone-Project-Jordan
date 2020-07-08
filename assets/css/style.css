@@ -25,24 +25,32 @@ body{
 
    }
 
-.navbar-text{
-color: #ffffff !important;
 }
-
 .nav-link:hover{
     color: #d66800!important;
 }
 
+.navbar-text{
+color: #ffffff !important;
+}
+
+
 /*----------- Carousel-----------*/
-.carousel-inner{
-    max-height: 38rem !important;
+.carousel-item{
+    height: 38rem !important;
 }
 /*----------- Slides-----------*/
-
 
 .d-block w-100{
     max-width: 100%;
 
+ /*----------- Heading-----------*/
+
+ #heading {
+     background-color: #1d1d1f;
+ }
+
+/*----------------------------------------------------Media Queries*/
 /*----------------------------------------------------Media Queries*/
 
 @media (min-width:992px){
