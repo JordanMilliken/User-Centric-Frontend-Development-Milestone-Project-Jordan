@@ -20,24 +20,24 @@ body{
    Navigation
    ========================================================================== */
 
-
-
-
-
-/*---------------------------------------------------- Navbar*/
 .navbar{
     text-transform: uppercase;
     font-weight: 600;
     font-size:16px;
-    font-size:1rem;
-    letter-spacing: .1rem;
-    background: rgba(0, 0, 0,.5) !important;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0,.1) !important;
 }
 
-.navbar-nav li { padding-right: .1rem
+.nav-item{
+    padding: 8px;
+}
+
+.navbar-nav li { padding-right: 2px;
 }
 
 .navbar-text{
+height:100px ;
+padding: 4px;
 color: #ffffff !important;
 }
 
