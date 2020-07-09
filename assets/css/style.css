@@ -1,26 +1,39 @@
+@charset "UTF-8";
+/*!
+Name: Brian Milliken Production Sound 
+Author: Jordan Milliken
+*/
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: "Montserrat", sans-serif;
     color: #1d1d1f;
 }
 
-/*---------------------------------------------------- Navigation */
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+
+
 
 
 /*---------------------------------------------------- Navbar*/
 .navbar{
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1rem;
+    font-size:16px;
+    font-size:1rem;
     letter-spacing: .1rem;
     background: rgba(0, 0, 0,.5) !important;
-    }
-.navbar-brand img{
-    height: 2.5rem;
-
 }
+
    .navbar-nav li { padding-right: .1rem
 
    }
