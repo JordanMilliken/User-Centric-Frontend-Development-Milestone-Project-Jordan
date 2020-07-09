@@ -40,6 +40,11 @@ body{
 
 .navbar-text{
 color: #ffffff !important;
+z-index: 2!important;;
+}
+
+.nav-link.active{
+    color: #d66800!important;
 }
 
 .nav-link:hover{
@@ -52,11 +57,14 @@ color: #ffffff !important;
 }
 /*----------- Slides-----------*/
 
-
 .d-block w-100{
     max-width: 100%;
+    
 
-/*----------------------------------------------------Media Queries*/
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
 
 @media (min-width:992px){
     .center-form{
