@@ -8,121 +8,122 @@ Author: Jordan Milliken
    Typography
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
 
-body{
-    overflow-x: hidden;
-    font-family: "Montserrat", sans-serif;
-    color: #1d1d1f;
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d1f;
 }
 
 /* ==========================================================================
    Navigation
    ========================================================================== */
 
-.navbar{
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size:16px;
-    letter-spacing: 1px;
-    background: rgba(0, 0, 0,.5) !important;
+.navbar {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 
-.nav-item{
-    padding: 8px;
+.nav-item {
+  padding: 8px;
 }
 
-.navbar-nav li { padding-right: 2px;
+.navbar-nav li {
+  padding-right: 2px;
 }
 
-.navbar-text{
-height:100px ;
-padding: 4px;
-color: #ffffff !important;
+.navbar-text {
+  height: 100px;
+  padding: 4px;
+  color: #ffffff !important;
 }
 
-.nav-link{
-    color: #ffffff!important;
+.nav-link {
+  color: #ffffff !important;
 }
 
-.nav-link.active{
-    color: #d66800!important;
+.nav-link.active {
+  color: #d66800 !important;
 }
 
-.nav-link:hover{
-    color: #d66800!important;
+.nav-link:hover {
+  color: #d66800 !important;
 }
 
 /* ==========================================================================
    Carousel
    ========================================================================== */
 
-.carousel-inner{
-    max-height: 608px !important;
+.carousel-inner {
+  max-height: 608px !important;
 }
 /*-- Slides--*/
-.d-block w-100{
-    max-width: 100%;
+.d-block w-100 {
+  max-width: 100%;
 }
 
 /*-- Transition --*/
 .carousel-item-next,
 .carousel-item-prev,
-.carousel-item.active{
-    transition: transform 2s ease;
+.carousel-item.active {
+  transition: transform 2s ease;
 }
 
-    
 /* ==========================================================================
    Footer
    ========================================================================== */
-   footer {
-       background-color: #1d1d1f;
-       padding: 1rem 2rem 3rem;
-   }
+footer {
+  background-color: #ffffff;
+}
 
-   footer p, footer a {
-       color:#ffffff;
-       text-decoration: none;
-   }
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+ 
+ ul.social{
+     list-style-type: none;
+     display: flex;
+     
+     
+ }
+ ul.social li{
+     max-width: 16rem;
+     margin: 0 auto;}
 
-   
-
-i.fab.fa-imdb,
+ i.fab.fa-imdb,
 i.fab.fa-linkedin,
 i.fab.fa-facebook-square,
 i.fab.fa-instagram-square,
-i.fab.fa-twitter-square,
-{
-    color: #1d1d1f;
-    list-style-type:none;
-    display:flex;
-    max-width:16rem;
-    margin: 0 auto;
-    padding: 0;
-    
+i.fab.fa-twitter-square {
+  color: #1d1d1f;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 32px;
 }
 
 i.fab.fa-imdb:hover,
 i.fab.fa-linkedin:hover,
 i.fab.fa-facebook-square:hover,
 i.fab.fa-instagram-square:hover,
-i.fab.fa-twitter-square:hover,
-{
-    color: #ffffff;
-  
-}
+i.fab.fa-twitter-square:hover {
+    color: #d66800;
+  }
+
+
+
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-
-@media (min-width:992px){
-    .center-form{
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-
+@media (min-width: 992px) {
+  padding-top: 30px;
+  min-height: 240px;
+  margin: 0 auto;
+  max-width: 50%;
 }
