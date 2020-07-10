@@ -77,9 +77,41 @@ color: #ffffff !important;
    Footer
    ========================================================================== */
    footer {
-       background-color: #1d1d1f !important;
+       background-color: #1d1d1f;
+       padding: 1rem 2rem 3rem;
    }
 
+   footer p, footer a {
+       color:#ffffff;
+       text-decoration: none;
+   }
+
+   
+
+i.fab.fa-imdb,
+i.fab.fa-linkedin,
+i.fab.fa-facebook-square,
+i.fab.fa-instagram-square,
+i.fab.fa-twitter-square,
+{
+    color: #1d1d1f;
+    list-style-type:none;
+    display:flex;
+    max-width:16rem;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+i.fab.fa-imdb:hover,
+i.fab.fa-linkedin:hover,
+i.fab.fa-facebook-square:hover,
+i.fab.fa-instagram-square:hover,
+i.fab.fa-twitter-square:hover,
+{
+    color: #ffffff;
+  
+}
 
 /* ==========================================================================
    Media Queries
@@ -94,6 +126,3 @@ color: #ffffff !important;
     max-width: 50%;
 
 }
-/* ==========================================================================
-   N
-   ========================================================================== */
