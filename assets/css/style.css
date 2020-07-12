@@ -115,7 +115,9 @@ i.fab.fa-twitter-square:hover {
   }
 
 
-
+.card-icon {
+    color: #ffffff !important;
+}
 
 /* ==========================================================================
    Media Queries
@@ -127,3 +129,4 @@ i.fab.fa-twitter-square:hover {
   margin: 0 auto;
   max-width: 50%;
 }
+
