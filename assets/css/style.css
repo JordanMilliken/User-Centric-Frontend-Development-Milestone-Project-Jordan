@@ -87,6 +87,10 @@ body {
    ========================================================================== */
 footer {
   background-color: #ffffff;
+  padding: 1rem 2 rem 3rem;
+   font-family: "Roboto", sans-serif;
+   font-size: 2rem;
+  color: #1d1d1f;
 }
 
 footer a {
@@ -108,7 +112,8 @@ i.fab.fa-imdb,
 i.fab.fa-linkedin,
 i.fab.fa-facebook-square,
 i.fab.fa-instagram-square,
-i.fab.fa-twitter-square {
+i.fab.fa-twitter-square,
+i.fas.fa-headphones-alt{
   color: #1d1d1f;
   margin: 0 auto;
   padding: 0;
@@ -119,13 +124,24 @@ i.fab.fa-imdb:hover,
 i.fab.fa-linkedin:hover,
 i.fab.fa-facebook-square:hover,
 i.fab.fa-instagram-square:hover,
-i.fab.fa-twitter-square:hover {
+i.fab.fa-twitter-square:hover,
+i.fas.fa-headphones-alt:hover{
     color: #d66800;
   }
 
 
 .card-icon {
     color: #ffffff !important;
+}
+
+.socket a {
+    color:  #ffffff;
+    text-decoration: none;
+    }
+.socket{
+    background-color: #1d1d1f;
+    border-top: .2rem solid #d66800;
+
 }
 
 /* ==========================================================================
