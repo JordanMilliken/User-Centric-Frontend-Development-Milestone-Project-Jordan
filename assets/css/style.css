@@ -27,6 +27,11 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   background: rgba(0, 0, 0, 0.5) !important;
+  padding-top: -2.5rem !important;
+  padding-bottom: -2.5rem !important;
+  padding-left: -2.5rem !important;
+  padding-right: -2.5rem !important;
+  
 }
 
 .nav-item {
@@ -35,6 +40,7 @@ body {
 
 .navbar-nav li {
   padding-right: 2px;
+  
 }
 
 .navbar-text {
@@ -54,6 +60,7 @@ body {
 .nav-link:hover {
   color: #d66800 !important;
 }
+
 
 
 /* ==========================================================================
@@ -97,7 +104,7 @@ footer a {
      max-width: 16rem;
      margin: 0 auto;}
 
- i.fab.fa-imdb,
+i.fab.fa-imdb,
 i.fab.fa-linkedin,
 i.fab.fa-facebook-square,
 i.fab.fa-instagram-square,
