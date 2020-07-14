@@ -16,6 +16,9 @@ body {
   color: #1d1d1f;
   
 }
+.special-border{
+border-top: .2rem solid #d66800 !important;
+}
 
 /* ==========================================================================
    Navigation
@@ -68,7 +71,7 @@ body {
    ========================================================================== */
 
 .carousel-inner {
-  max-height: 608px !important;
+  max-height: 38rem !important;
 }
 /*-- Slides--*/
 .d-block w-100 {
@@ -82,6 +85,25 @@ body {
   transition: transform 2s ease;
 }
 
+ .btn {
+    background-color: #d66800 !important;
+}
+
+/* ==========================================================================
+   Jumbotron
+   ========================================================================== */
+
+.jumbotron-fluid img {
+  max-height: 38rem !important;
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+   .card{
+       background-color: #d66800;
+   }
+
 /* ==========================================================================
    Footer
    ========================================================================== */
@@ -89,7 +111,7 @@ footer {
   background-color: #ffffff;
   padding: 1rem 2 rem 3rem;
    font-family: "Roboto", sans-serif;
-   font-size: 2rem;
+   font-size: 1rem;
   color: #1d1d1f;
 }
 
@@ -112,9 +134,17 @@ i.fab.fa-imdb,
 i.fab.fa-linkedin,
 i.fab.fa-facebook-square,
 i.fab.fa-instagram-square,
-i.fab.fa-twitter-square,
+i.fab.fa-twitter-square{
+
+  color: #6e6969;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 32px;
+}
+
+
 i.fas.fa-headphones-alt{
-  color: #1d1d1f;
+    color: #d66800;
   margin: 0 auto;
   padding: 0;
   font-size: 32px;
@@ -124,8 +154,7 @@ i.fab.fa-imdb:hover,
 i.fab.fa-linkedin:hover,
 i.fab.fa-facebook-square:hover,
 i.fab.fa-instagram-square:hover,
-i.fab.fa-twitter-square:hover,
-i.fas.fa-headphones-alt:hover{
+i.fab.fa-twitter-square:hover{
     color: #d66800;
   }
 
@@ -147,11 +176,4 @@ i.fas.fa-headphones-alt:hover{
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media (min-width: 992px) {
-  padding-top: 30px;
-  min-height: 240px;
-  margin: 0 auto;
-  max-width: 50%;
-}
 
