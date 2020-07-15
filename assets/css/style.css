@@ -14,10 +14,9 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   color: #1d1d1f;
-  
 }
-.special-border{
-border-top: .2rem solid #d66800 !important;
+.special-border {
+  border-top: 0.2rem solid #d66800 !important;
 }
 
 /* ==========================================================================
@@ -34,7 +33,6 @@ border-top: .2rem solid #d66800 !important;
   padding-bottom: -2.5rem !important;
   padding-left: -2.5rem !important;
   padding-right: -2.5rem !important;
-  
 }
 
 .nav-item {
@@ -43,7 +41,6 @@ border-top: .2rem solid #d66800 !important;
 
 .navbar-nav li {
   padding-right: 2px;
-  
 }
 
 .navbar-text {
@@ -64,8 +61,6 @@ border-top: .2rem solid #d66800 !important;
   color: #d66800 !important;
 }
 
-
-
 /* ==========================================================================
    Carousel
    ========================================================================== */
@@ -85,8 +80,8 @@ border-top: .2rem solid #d66800 !important;
   transition: transform 2s ease;
 }
 
- .btn {
-    background-color: #d66800 !important;
+.btn {
+  background-color: #d66800 !important;
 }
 
 /* ==========================================================================
@@ -100,30 +95,27 @@ border-top: .2rem solid #d66800 !important;
 /* ==========================================================================
    Cards
    ========================================================================== */
-   .card{
-       background-color: #d66800;
-   }
+.card {
+  background-color: #d66800;
+}
 /* ==========================================================================
    Credits Table
    ========================================================================== */
-.grey{
+.grey {
   background-color: #6e6969;
   color: #ffffff;
 }
 
-.orange{
-     background-color: #d66800;
-     color: #ffffff;
+.orange {
+  background-color: #d66800;
+  color: #ffffff;
 }
 /* ==========================================================================
    Quote Carousel
    ========================================================================== */
-.quote-color  {
-   
-    color: #d66800;
+.quote-color {
+  color: #d66800;
 }
-
-
 
 /* ==========================================================================
    Footer
@@ -131,8 +123,8 @@ border-top: .2rem solid #d66800 !important;
 footer {
   background-color: #ffffff;
   padding: 1rem 2 rem 3rem;
-   font-family: "Roboto", sans-serif;
-   font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   color: #1d1d1f;
 }
 
@@ -140,32 +132,29 @@ footer a {
   color: #ffffff;
   text-decoration: none;
 }
- 
- ul.social{
-     list-style-type: none;
-     display: flex;
-     
-     
- }
- ul.social li{
-     max-width: 16rem;
-     margin: 0 auto;}
+
+ul.social {
+  list-style-type: none;
+  display: flex;
+}
+ul.social li {
+  max-width: 16rem;
+  margin: 0 auto;
+}
 
 i.fab.fa-imdb,
 i.fab.fa-linkedin,
 i.fab.fa-facebook-square,
 i.fab.fa-instagram-square,
-i.fab.fa-twitter-square{
-
+i.fab.fa-twitter-square {
   color: #6e6969;
   margin: 0 auto;
   padding: 0;
   font-size: 32px;
 }
 
-
-i.fas.fa-headphones-alt{
-    color: #d66800;
+i.fas.fa-headphones-alt {
+  color: #d66800;
   margin: 0 auto;
   padding: 0;
   font-size: 32px;
@@ -175,26 +164,23 @@ i.fab.fa-imdb:hover,
 i.fab.fa-linkedin:hover,
 i.fab.fa-facebook-square:hover,
 i.fab.fa-instagram-square:hover,
-i.fab.fa-twitter-square:hover{
-    color: #d66800;
-  }
-
+i.fab.fa-twitter-square:hover {
+  color: #d66800;
+}
 
 .card-icon {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .socket a {
-    color:  #ffffff;
-    text-decoration: none;
-    }
-.socket{
-    background-color: #1d1d1f;
-    border-top: .2rem solid #d66800;
-
+  color: #ffffff;
+  text-decoration: none;
+}
+.socket {
+  background-color: #1d1d1f;
+  border-top: 0.2rem solid #d66800;
 }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
