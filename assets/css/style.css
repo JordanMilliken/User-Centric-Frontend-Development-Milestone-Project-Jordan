@@ -22,6 +22,12 @@ body {
 /* ==========================================================================
    Navigation
    ========================================================================== */
+   .padding {
+    padding: 0 !important;
+   }
+.navbar {
+     padding: 0 !important;
+   }
 
 .navbar {
   text-transform: uppercase;
@@ -29,10 +35,6 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   background: rgba(0, 0, 0, 0.5) !important;
-  padding-top: -2.5rem !important;
-  padding-bottom: -2.5rem !important;
-  padding-left: -2.5rem !important;
-  padding-right: -2.5rem !important;
 }
 
 .nav-item {
