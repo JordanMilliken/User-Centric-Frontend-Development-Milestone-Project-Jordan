@@ -38,16 +38,16 @@ body {
 }
 
 .nav-item {
-  padding: 8px;
+  padding: 4px;
 }
 
 .navbar-nav li {
-  padding-right: 2px;
+  padding-right: 1px;
 }
 
 .navbar-text {
   height: 100px;
-  padding: 4px;
+  padding: 1px;
   color: #ffffff !important;
 }
 
