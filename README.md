@@ -1,5 +1,8 @@
 # Milestone Project 1
 
+[Live website.](https://jordanmilliken.github.io/User-Centric-Frontend-Development-Milestone-Project-Jordan/)
+ 
+
 - This responsive website was created for Brian Milliken Production Sound Mixer, Brian is a real Sound mixer and works on many large scale productions. 
 - This project was created as my Milestone 1 Project for Code Institute's Full Stack Software Development Program.
 - This website was built with HTML, CSS & Bootstrap.
@@ -8,53 +11,67 @@
 The website's Carousel and jumbotron is consistent and engaging throughout all of the websites pages. The website includes a Home page with image carousel that draws the user in. An About page which is the main goal of the site to sell Brian. An equipment page where users can easily see what Brian is working with without too much text. A fun credits page with a spotify playlist embedded encouraging users to stay longer and listen to music whilst reading Brians Credits. And finally a contact page where users can get in touch and potentially book Brian for the next Job
 
 
+
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+![Homepage](assets/images/screenshot1.png)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+![Home page](assets/images/screenshot2.png)
+
+![About page](assets/images/screenshot3.png)
+
+![About page](assets/images/screenshot4.png)
+
+![About page](assets/images/screenshot5.png)
+
+![About page](assets/images/screenshot6.png)
+
+![About page](assets/images/screenshot7.png)
+
+## Wireframes
+
+I used Figma (https://www.figma.com/files/recent) for my wireframes which i spent a week mocking up with images and content.
+
+![Wireframes](assets/images/wireframes.png)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-### Features Left to Implement
-- Another feature idea
-## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-## Testing
+- Spotify Playlist.
+- Responsive on all devices screen sizes.
+- Multiple interactive Features.
 
-- HTML result Link
-- CSS result link  http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordanmilliken.github.io%2FUser-Centric-Frontend-Development-Milestone-Project-Jordan%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Features Left to Implement
+- In the future i would like to hone my new found slills of Javascript. I would also like to make this website live and obtain the domain name for it.
+
+
+## Technologies Used
+### Languages Used
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+### Frameworks, Libraries & Programs Used
+1. [Bootstrap 4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts used were "Monserrat" and "Roboto".
+1. [Font Awesome:](https://fontawesome.com/) 
+    - Font awesome was used for my social media icons and a headphone icon in the footer.
+
+
+## Testing
+The websites HTML and CSS were tested multiple times during the project using [W3 VALIDATOR] (https://validator.w3.org/)
+- HTML result 
+![W3c Test](assets/images/htmlvalidation.png)
+- CSS result 
+![W3c Test](assets/images/cssvalidation.png)
+- The website was displayed on a wide array of practical devices during testing by myself and by my friends and family. 
+- I also used Dev Tools Various screen sizes to check responsiveness of the site.
+- I have checked that all internal links are working and that there are no broken links.
+
+
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+-   The project was deployed to GitHub Pages.
+-  [This is a link to the GitHub Repository](https://github.com/JordanMilliken/User-Centric-Frontend-Development-Milestone-Project-Jordan)
+
 ## Credits
 - Bootstrap 4 Bootstrap Documentation Used throught this project. Documentation used: Grid Layout, Cards ,Buttons, Carousel, Navbar,Contact form.
 ### Content
